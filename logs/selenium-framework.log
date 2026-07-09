@@ -49,3 +49,54 @@
 2026-07-09 15:44:09 [INFO ] com.automation.pages.HomePage - Getting success message
 2026-07-09 15:44:09 [INFO ] com.automation.driver.DriverManager - Quitting driver
 2026-07-09 15:44:09 [INFO ] com.automation.base.BaseTest - ========== TEST COMPLETE ==========
+2026-07-09 16:32:12 [INFO ] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\gn777\IdeaProjects\selenium-enterprise-framework\testng.xml
+
+2026-07-09 16:32:12 [INFO ] com.automation.base.BaseTest - ========== TEST STARTING ==========
+2026-07-09 16:32:12 [INFO ] com.automation.base.BaseTest - ========== TEST STARTING ==========
+2026-07-09 16:32:12 [INFO ] com.automation.base.BaseTest - ========== TEST STARTING ==========
+2026-07-09 16:32:12 [INFO ] com.automation.config.ConfigManager - Configuration loaded from: config.properties
+2026-07-09 16:32:12 [INFO ] com.automation.config.ConfigManager - Configuration loaded from: config.properties
+2026-07-09 16:32:12 [INFO ] com.automation.driver.DriverManager - Initialising chrome driver | headless=false
+2026-07-09 16:32:12 [INFO ] com.automation.driver.DriverManager - Initialising chrome driver | headless=false
+2026-07-09 16:32:12 [INFO ] com.automation.config.ConfigManager - Configuration loaded from: config.properties
+2026-07-09 16:32:12 [INFO ] com.automation.driver.DriverManager - Initialising chrome driver | headless=false
+2026-07-09 16:32:12 [INFO ] i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.115 (resolved driver for Chrome 150)
+2026-07-09 16:32:12 [INFO ] i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.115 (resolved driver for Chrome 150)
+2026-07-09 16:32:12 [INFO ] i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.115 (resolved driver for Chrome 150)
+2026-07-09 16:32:13 [INFO ] i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\gn777\.cache\selenium\chromedriver\win64\150.0.7871.115\chromedriver.exe
+2026-07-09 16:32:13 [INFO ] i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\gn777\.cache\selenium\chromedriver\win64\150.0.7871.115\chromedriver.exe
+2026-07-09 16:32:13 [INFO ] i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\gn777\.cache\selenium\chromedriver\win64\150.0.7871.115\chromedriver.exe
+2026-07-09 16:32:15 [INFO ] com.automation.driver.DriverManager - Driver initialised successfully
+2026-07-09 16:32:15 [INFO ] com.automation.driver.DriverManager - Driver initialised successfully
+2026-07-09 16:32:15 [INFO ] com.automation.driver.DriverManager - Driver initialised successfully
+2026-07-09 16:32:19 [INFO ] com.automation.base.BaseTest - Navigated to: https://the-internet.herokuapp.com/login
+2026-07-09 16:32:19 [INFO ] com.automation.pages.LoginPage - Entering username: tomsmith
+2026-07-09 16:32:20 [INFO ] com.automation.pages.BasePage - Typed 'tomsmith' into element
+2026-07-09 16:32:20 [INFO ] com.automation.pages.LoginPage - Entering password
+2026-07-09 16:32:20 [INFO ] com.automation.pages.BasePage - Typed 'SuperSecretPassword!' into element
+2026-07-09 16:32:20 [INFO ] com.automation.pages.LoginPage - Clicking login button
+2026-07-09 16:32:20 [INFO ] com.automation.pages.BasePage - Clicking element: [[ChromeDriver: chrome on windows (57979a8845cf92d12f4847fca4a1e389)] -> css selector: button[type='submit']]
+2026-07-09 16:32:21 [INFO ] com.automation.pages.HomePage - Logging out
+2026-07-09 16:32:21 [INFO ] com.automation.pages.BasePage - Clicking element: [[ChromeDriver: chrome on windows (57979a8845cf92d12f4847fca4a1e389)] -> css selector: a[href='/logout']]
+2026-07-09 16:32:24 [INFO ] com.automation.base.BaseTest - Navigated to: https://the-internet.herokuapp.com/login
+2026-07-09 16:32:24 [INFO ] com.automation.pages.LoginPage - Entering username: tomsmith
+2026-07-09 16:32:24 [INFO ] com.automation.base.BaseTest - Navigated to: https://the-internet.herokuapp.com/login
+2026-07-09 16:32:24 [INFO ] com.automation.pages.LoginPage - Entering username: wronguser
+2026-07-09 16:32:24 [INFO ] com.automation.driver.DriverManager - Quitting driver
+2026-07-09 16:32:25 [INFO ] com.automation.pages.BasePage - Typed 'tomsmith' into element
+2026-07-09 16:32:25 [INFO ] com.automation.pages.LoginPage - Entering password
+2026-07-09 16:32:25 [INFO ] com.automation.pages.BasePage - Typed 'wronguser' into element
+2026-07-09 16:32:25 [INFO ] com.automation.pages.LoginPage - Entering password
+2026-07-09 16:32:25 [INFO ] com.automation.pages.BasePage - Typed 'SuperSecretPassword!' into element
+2026-07-09 16:32:25 [INFO ] com.automation.pages.LoginPage - Clicking login button
+2026-07-09 16:32:25 [INFO ] com.automation.base.BaseTest - ========== TEST COMPLETE ==========
+2026-07-09 16:32:25 [INFO ] com.automation.pages.BasePage - Clicking element: [[ChromeDriver: chrome on windows (1cab5652e6e2661fe84d37854fc2ea05)] -> css selector: button[type='submit']]
+2026-07-09 16:32:25 [INFO ] com.automation.pages.BasePage - Typed 'wrongpass' into element
+2026-07-09 16:32:25 [INFO ] com.automation.pages.LoginPage - Clicking login button
+2026-07-09 16:32:25 [INFO ] com.automation.pages.BasePage - Clicking element: [[ChromeDriver: chrome on windows (cc786581b2db2a714bdeccc32f997375)] -> css selector: button[type='submit']]
+2026-07-09 16:32:26 [INFO ] com.automation.pages.HomePage - Getting success message
+2026-07-09 16:32:26 [INFO ] com.automation.driver.DriverManager - Quitting driver
+2026-07-09 16:32:26 [INFO ] com.automation.driver.DriverManager - Quitting driver
+2026-07-09 16:32:26 [INFO ] com.automation.base.BaseTest - ========== TEST COMPLETE ==========
+2026-07-09 16:32:26 [INFO ] com.automation.base.BaseTest - ========== TEST COMPLETE ==========
